@@ -1,0 +1,15 @@
+public class sec_q {
+
+    static boolean palidrom(int j,String str){
+
+        
+    }
+   public static void main(String[] args) {
+       String str = "rececar";
+       int i=
+        int j=str.length()-1;
+        palidrom(j, str);
+      
+       }
+   }                                                 
+

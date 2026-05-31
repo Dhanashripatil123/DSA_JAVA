@@ -1,0 +1,10 @@
+ class find_peak_arry{
+    static void find_peak_moutain_arry(int[] arr){
+        int low = 0;
+        int 
+    }                                            
+   public static void main(String[] args) {
+         int[] arr={1,2,5,8,6,3,-1};
+         find_peak_moutain_arry(arr);
+   }                                               
+ }

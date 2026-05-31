@@ -1,0 +1,14 @@
+public class rotate_dplace_array {
+   static void rotate_array(int arr[],int d){
+         int temp = arr[d]; 
+         int n=arr.length;  
+         for(int i=1; i<n-1; i++){
+            arr[i-d] = arr[i];
+         }
+         arr[n-d] = temp;
+   }                                             
+    public static void main(String[] args) {                                            
+       int arr[] = {12,2,1,23,12};
+       rotate_array(arr,2);                                         
+    }                                              
+}

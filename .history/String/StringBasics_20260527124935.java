@@ -1,0 +1,10 @@
+
+
+public class StringBasics { 
+public static void main(String[] args) {
+   char[] arr = {'d','h','a','n'};   
+   for(char ele:arr){
+      System.out.print(ele+" ");
+   }                                        
+}
+}

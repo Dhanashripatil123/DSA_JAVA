@@ -1,0 +1,5 @@
+public class linear_serch {
+     public static void main(String[] args) {
+         int arr[]                                         
+     }                                             
+}

@@ -1,0 +1,24 @@
+public class finding_no {
+
+
+      static int find(int[] arr, int n, int target) {
+          int high = n-1;
+          int low = 0;
+          while(low<=high){
+             int mid = (high + low)/2;
+             if(arr[mid]==target) return mid;
+             else if(arr[mid]<target) low=mid+1;
+             else high = mid - 1;
+          }
+          return -1;
+      }  
+      
+      public static void main(String[] args) {
+            int arr[] = {26,34,56,75,87,90};
+            int target = 56;
+            int n=arr.length;
+            System.out.println(find(arr, n, target));
+                                               
+      }                                         
+  }
+

@@ -1,0 +1,3 @@
+public ststic void main(){
+                                                  
+}
