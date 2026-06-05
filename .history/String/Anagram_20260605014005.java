@@ -1,0 +1,15 @@
+public class Anagram {
+    static boolean ana1(String str1,String str2){
+       if(str1.length()!=str2.length()) return false;
+       
+       for(int i=0; i<str1.length()-1; i++){
+          
+       }
+       return true;
+    }                                              
+    public static void main(String[] args) {
+       String str1 = "race" ;
+       String str2 = "care" ;
+       System.out.println(ana1(str1,str2));
+    }                                              
+}

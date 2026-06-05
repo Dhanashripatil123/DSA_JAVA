@@ -53,14 +53,9 @@ public class most_frequent_character {
        int idx = ch-97;
        freq[idx]++;
     }
-    int maxfreq = 0;
-    char ans = s.charAt(0);
-    for(int i=0; i<26; i++){
-       if(freq[i]>maxfreq){
-         maxfreq = freq[i];
-         ans =  (char)(i + 97);   
-       }
-    }
+    int maxfreq = -1;
+    char ans = s.charAt(0)
+    char ans  = s.charAt(0);
     
 
 

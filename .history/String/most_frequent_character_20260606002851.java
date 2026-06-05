@@ -58,7 +58,7 @@ public class most_frequent_character {
     for(int i=0; i<26; i++){
        if(freq[i]>maxfreq){
          maxfreq = freq[i];
-         ans =  (char)(i + 97);   
+         char    
        }
     }
     
