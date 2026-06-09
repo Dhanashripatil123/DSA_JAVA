@@ -20,7 +20,6 @@ public class q9 {
            for(int j=0; j<b[0].length; j++ ){
              b[i][j] = arr[j][i];
            }                                        
-         }
-         print(arr);                                          
+         }                                          
      }                                             
 }

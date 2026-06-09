@@ -1,26 +1,16 @@
 //transponse matrix by create new array
 
 public class q9 {
-     private static void print(int [][] arr){
-     for(int i=0; i<arr.length; i++){
-        for(int ele:arr[i]){
-          System.out.print(ele+" ");
-        }
-        System.out.println();
-     }
-  }
      public static void main(String[] args) {
          int[][] arr = {{6,0,2,7,17},{1,3,7,2,12},{9,19,4,5,2}};
-         print(arr);
          int rows = arr.length;
          int columns = arr[0].length;
-         int[][] b = new int[columns][rows];
+         int[][] b = new int[rows][columns];
 
          for(int i=0; i<b.length; i++){
            for(int j=0; j<b[0].length; j++ ){
              b[i][j] = arr[j][i];
            }                                        
-         }
-         print(arr);                                          
+         }                                          
      }                                             
 }

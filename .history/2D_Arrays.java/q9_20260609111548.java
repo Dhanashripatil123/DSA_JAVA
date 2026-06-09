@@ -21,6 +21,6 @@ public class q9 {
              b[i][j] = arr[j][i];
            }                                        
          }
-         print(arr);                                          
+                                                   
      }                                             
 }
