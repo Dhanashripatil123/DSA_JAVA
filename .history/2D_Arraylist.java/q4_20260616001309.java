@@ -14,12 +14,8 @@ public class q4 {
      ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
      for(int i=0; i<n; i++){
         ans.add(new ArrayList<Integer>());
-        for(int j=0; j<n; j++){
-          int sum=0;
-            ans.get(i).add(c[i][j]);
-        }
+        
      }
-     return ans;
   }
   public static void main(String[] args) {
                                                   
