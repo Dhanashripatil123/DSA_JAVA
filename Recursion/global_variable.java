@@ -1,5 +1,4 @@
 
-
 public class global_variable {
     static int x = 10;
 
